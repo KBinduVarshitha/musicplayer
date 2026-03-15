@@ -1,4 +1,3 @@
-
 console.log("Music Player Started");
 
 let currentSong = new Audio();
@@ -6,7 +5,7 @@ let songs = [];
 let currFolder;
 let playBtn = document.getElementById("play");
 
-// Convert seconds to MM:SS format
+// Convert seconds to MM:SS
 function secondsToMinutesSeconds(seconds) {
     if (isNaN(seconds) || seconds < 0) return "00:00";
     const minutes = Math.floor(seconds / 60);
@@ -20,7 +19,7 @@ async function getSongs(folder) {
     currFolder = folder;
 
     try {
-        const res = await fetch(`songs/${folder}/info.json`); // FIXED PATH
+        const res = await fetch(`songs/${folder}/info.json`);
         const data = await res.json();
 
         songs = data.songs;
@@ -50,12 +49,14 @@ async function getSongs(folder) {
     }
 
     Array.from(document.querySelectorAll(".songlist li")).forEach(e => {
+
         e.addEventListener("click", () => {
 
             let track = e.querySelector(".info div").innerText.trim();
             playmusic(track);
 
         });
+
     });
 
     return songs;
@@ -64,7 +65,7 @@ async function getSongs(folder) {
 // Play song
 const playmusic = (track, pause = false) => {
 
-    currentSong.src = `songs/${currFolder}/${track}`; // FIXED PATH
+    currentSong.src = `songs/${currFolder}/${track}`;
 
     if (!pause) {
         currentSong.play();
@@ -82,8 +83,10 @@ async function displayAlbums() {
 
     try {
 
-        const res = await fetch("songs/albums.json"); // FIXED PATH
+        const res = await fetch("songs/albums.json");
         const albums = await res.json();
+
+        cardContainer.innerHTML = "";
 
         albums.forEach(album => {
 
@@ -96,9 +99,7 @@ async function displayAlbums() {
                     </svg>
                 </div>
 
-                <img src="songs/${album.folder}/${album.cover}"> 
-                <!-- FIXED PATH -->
-
+                <img src="songs/${album.folder}/${album.cover}">
                 <h2>${album.title}</h2>
                 <p>${album.description}</p>
             </div>`;
@@ -110,9 +111,9 @@ async function displayAlbums() {
 
                 const folder = card.dataset.folder;
 
-                await getSongs(folder); // updates playlist
+                await getSongs(folder);
 
-                playmusic(songs[0]); // plays first song
+                playmusic(songs[0]);
 
             });
 
@@ -128,8 +129,7 @@ async function displayAlbums() {
 // Main
 async function main() {
 
-    await getSongs("telugu");
-
+    await getSongs("Pop");   // change to your default folder
     playmusic(songs[0], true);
 
     await displayAlbums();
@@ -190,7 +190,6 @@ async function main() {
     document.getElementById("next").addEventListener("click", () => {
 
         let current = decodeURIComponent(currentSong.src.split("/").pop());
-
         let decodedSongs = songs.map(s => decodeURIComponent(s));
 
         let index = decodedSongs.indexOf(current);
@@ -204,7 +203,6 @@ async function main() {
     document.getElementById("prev").addEventListener("click", () => {
 
         let current = decodeURIComponent(currentSong.src.split("/").pop());
-
         let decodedSongs = songs.map(s => decodeURIComponent(s));
 
         let index = decodedSongs.indexOf(current);
@@ -222,9 +220,7 @@ async function main() {
         currentSong.volume = parseInt(e.target.value) / 100;
 
         if (currentSong.volume > 0) {
-
             document.querySelector(".volume img").src = "img/volume.svg";
-
         }
 
     });
@@ -234,17 +230,13 @@ async function main() {
         if (e.target.src.includes("volume.svg")) {
 
             e.target.src = "img/mute.svg";
-
             currentSong.volume = 0;
-
             document.querySelector(".range input").value = 0;
 
         } else {
 
             e.target.src = "img/volume.svg";
-
             currentSong.volume = 0.1;
-
             document.querySelector(".range input").value = 10;
 
         }
