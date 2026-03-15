@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+  <!-- Circle background -->
+  <circle cx="12" cy="12" r="11" fill="orange"/>
+
+  <!-- Speaker -->
+  <polygon points="9,10 7,10 7,14 9,14 12,17 12,7" fill="black"/>
+
+  <!-- Sound waves -->
+  <path d="M14 10C15 11 15 13 14 14" stroke="black" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M16 9C18 11 18 13 16 15" stroke="black" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

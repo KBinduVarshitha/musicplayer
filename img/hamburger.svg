@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+  <!-- Circle background -->
+  <circle cx="12" cy="12" r="11" fill="orange"/>
+
+  <!-- Hamburger lines -->
+  <rect x="7" y="8" width="10" height="1.8" fill="black"/>
+  <rect x="7" y="11.5" width="10" height="1.8" fill="black"/>
+  <rect x="7" y="15" width="10" height="1.8" fill="black"/>
+</svg>
