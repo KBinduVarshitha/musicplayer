@@ -1,4 +1,17 @@
 {
-    "title":"Telugu Songs",
-    "description":"Telugu Songs for you"
+    "folder": "telugu",
+    "title": "Telugu Hits",
+    "description": "Top Telugu songs for every mood.",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Ammayi.mp3",
+        "Bad Boy.mp3",
+        "Don U Don U.mp3",
+        "Edo Edo.mp3",
+        "Kailove Chedugudu.mp3",
+        "Mallika Gandha.mp3",
+        "Oh Isha.mp3",
+        "Pachchadanamey .mp3"
+    ]
 }

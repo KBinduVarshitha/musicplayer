@@ -1,4 +1,14 @@
 {
-    "title":"Happy Vibes",
-    "description":"Only happy vibes for you"
+    "folder": "happyvibes",
+    "title": "Happy Vibes",
+    "description": "Songs that sets your vibe to happy mood",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Darshana.mp3",
+        "Mayakirriye.mp3",
+        "Paaro.mp3",
+        "Pachchadanamey .mp3",
+        "Ranjha.mp3"
+    ]
 }

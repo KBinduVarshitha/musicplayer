@@ -1,4 +1,15 @@
 {
-    "title":"Feel Good",
-    "description":"Feel Good Songs"
+    "folder": "feelgood",
+    "title": "Feel Good Hits",
+    "description": "A collection of feel good songs",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Chinna Chinna Vanna Kuyil.mp3",
+        "Dheema.mp3",
+        "Gehra Hua Dhurandhar.mp3",
+        "i wanna be yours.mp3",
+        "If you love her.mp3",
+        "Pavizha Mazha.mp3"
+    ]
 }

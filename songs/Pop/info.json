@@ -1,4 +1,14 @@
 {
-    "title":"Pop Songs",
-    "description":"Pop Songs for you"
+    "folder": "Pop",
+    "title": "Pop Songs",
+    "description": "Top pop songs for every mood.",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Don U Don U.mp3",
+        "Illuminati.mp3",
+        "Lets Nacho.mp3",
+        "Mayakirriye.mp3",
+        "Theres Nothing Holding Me Back.mp3"
+    ]
 }

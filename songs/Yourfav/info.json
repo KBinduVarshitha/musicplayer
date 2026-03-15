@@ -1,4 +1,15 @@
 {
-    "title":"Your Favourites",
-    "description":"Songs of your favourites"
+    "folder": "Yourfav",
+    "title": "Your favourites",
+    "description": "Listen to your favourites",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "i wanna be yours.mp3",
+        "If you love her.mp3",
+        "Kalyani.mp3",
+        "Mallika Gandha.mp3",
+        "Oh Isha.mp3",
+        "Pavizha Mazha.mp3"
+    ]
 }

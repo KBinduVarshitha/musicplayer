@@ -1,0 +1,80 @@
+[
+    {
+        "folder": "english",
+        "title": "English Hits",
+        "description": "Top English songs for every mood",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "feelgood",
+        "title": "Feel Good Hits",
+        "description": "A collection of feel good songs",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "globalhits",
+        "title": "Global Hits",
+        "description": "Global hit songs that are popular",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "happyvibes",
+        "title": "Happy Vibes",
+        "description": "Songs that sets your vibe to happy mood",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "hindi",
+        "title": "Hindi Hits",
+        "description": "Top Hindi songs for every mood.",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "hothits",
+        "title": "Hot Hits",
+        "description": "Hit songs for vibing",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "lovesongs",
+        "title": "Love Songs",
+        "description": "Love songs for you",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "malayalam",
+        "title": "Malayalam Hits",
+        "description": "Top Malayalam songs for every mood.",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "moodchecker",
+        "title": "Set your mood",
+        "description": "Songs that to your mood",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "Pop",
+        "title": "Pop Songs",
+        "description": "Top pop songs for every mood.",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "tamil",
+        "title": "Tamil Hits",
+        "description": "Top Tamil songs for every mood.",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "telugu",
+        "title": "Telugu Hits",
+        "description": "Top Telugu songs for every mood.",
+        "cover": "cover.jpg"
+    },
+    {
+        "folder": "Yourfav",
+        "title": "Your favourites",
+        "description": "Listen to your favourites",
+        "cover": "cover.jpg"
+    }
+]

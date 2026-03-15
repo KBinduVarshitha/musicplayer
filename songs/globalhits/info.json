@@ -1,4 +1,14 @@
 {
-    "title":"Global Hits",
-    "description":"Top hits for you"
+    "folder": "globalhits",
+    "title": "Global Hits",
+    "description": "Global hit songs that are popular",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Ammayi.mp3",
+        "Bad Boy.mp3",
+        "Darshana.mp3",
+        "Illuminati.mp3",
+        "Thousand years.mp3"
+    ]
 }

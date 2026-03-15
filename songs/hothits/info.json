@@ -1,4 +1,14 @@
 {
-    "title":"Hot Hits",
-    "description":"Rock your mood with hot hits"
+    "folder": "hothits",
+    "title": "Hot Hits",
+    "description": "Hit songs for vibing",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Bad Boy.mp3",
+        "Closer.mp3",
+        "Darshana.mp3",
+        "Edo Edo.mp3",
+        "Lets Nacho.mp3"
+    ]
 }

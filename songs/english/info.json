@@ -1,4 +1,19 @@
 {
-    "title":"English Songs",
-    "description":"English Songs for you"
+    "folder": "english",
+    "title": "English Hits",
+    "description": "Top English songs for every mood",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Closer.mp3",
+        "i wanna be yours.mp3",
+        "If you love her.mp3",
+        "Love me like you do.mp3",
+        "Love Story.mp3",
+        "Makes you beautiful.mp3",
+        "Senorita.mp3",
+        "Sorry.mp3",
+        "Theres Nothing Holding Me Back.mp3",
+        "Thousand years.mp3"
+    ]
 }

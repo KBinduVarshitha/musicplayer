@@ -1,4 +1,13 @@
 {
-    "title":"Mood Checker",
-    "description":"Make you mood chill"
+    "folder": "moodchecker",
+    "title": "Set your mood",
+    "description": "Songs that to your mood",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Chinna Chinna Vanna Kuyil.mp3",
+        "Ik Vaari Aa .mp3",
+        "Mallika Gandha.mp3",
+        "Pavizha Mazha.mp3"
+    ]
 }

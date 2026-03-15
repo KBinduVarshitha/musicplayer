@@ -1,4 +1,16 @@
 {
-    "title":"Tamil Songs",
-    "description":"Tamil Songs for you"
+    "folder": "tamil",
+        "title": "Tamil Hits",
+        "description": "Top Tamil songs for every mood.",
+        "cover": "cover.jpg",
+        "songs":
+        [
+            "Aasa Kooda.mp3",
+            "Adiye.mp3",
+            "Dheema.mp3",
+            "Golden Sparrow.mp3",
+            "Hey Minnale.mp3",
+            "Mayakirriye.mp3",
+            "Why This Kolaveri Di.mp3"
+        ]
 }

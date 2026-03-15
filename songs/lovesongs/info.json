@@ -1,4 +1,15 @@
 {
-    "title":"Love Songs",
-    "description":"Love Songs for you"
+    "folder": "lovesongs",
+    "title": "Love Songs",
+    "description": "Love songs for you",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Chinna Chinna Vanna Kuyil.mp3",
+        "Don U Don U.mp3",
+        "Love me like you do.mp3",
+        "Love Story.mp3",
+        "Paaro.mp3",
+        "Ranjha.mp3"
+    ]
 }

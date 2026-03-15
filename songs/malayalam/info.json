@@ -1,4 +1,15 @@
 {
-    "title":"Malayalam Songs",
-    "description":"Malayalam Songs for you"
+    "folder": "malayalam",
+    "title": "Malayalam Hits",
+    "description": "Top Malayalam songs for every mood.",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Chinna Chinna Vanna Kuyil.mp3",
+        "Darshana.mp3",
+        "Illuminati.mp3",
+        "Kalyani.mp3",
+        "Kutty Kudiye.mp3",
+        "Pavizha Mazha.mp3"
+    ]
 }

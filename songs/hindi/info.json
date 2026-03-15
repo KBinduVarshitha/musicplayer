@@ -1,4 +1,14 @@
 {
-    "title":"Hindi Songs",
-    "description":"Hindi Songs for you"
+    "folder": "hindi",
+    "title": "Hindi Hits",
+    "description": "Top Hindi songs for every mood.",
+    "cover": "cover.jpg",
+    "songs":
+    [
+        "Gehra Hua Dhurandhar.mp3",
+        "Ik Vaari Aa .mp3",
+        "Lets Nacho.mp3",
+        "Paaro.mp3",
+        "Ranjha.mp3"
+    ]
 }
